@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+    <link rel="icon" href="icon.ico" type="image/png">
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top">
+
+    <!-- ================= ヘッダー ================= -->
+    <header>
+        <div class="logo">
+            <a href="#top">Portfolio</a>
+        </div>
+
+
+
+        <nav id="nav">
+            <ul>
+                <li><a href="#about">自己紹介</a></li>
+                <li><a href="#achievements">実績</a></li>
+                <li><a href="#qualification">資格</a></li>
+                <li><a href="#works">作品</a></li>
+                <li><a href="#skills">技術</a></li>
+                <li><a href="#contact">連絡先</a></li>
+            </ul>
+        </nav>
+    </header>
+    <button class="hamburger" id="hamburger">
+        ☰
+    </button>
+    <!-- ================= メイン ================= -->
+
+    <main>
+
+        <!-- ヒーロー -->
+
+        <section class="hero">
+
+            <h1>PORTFOLIO</h1>
+
+            <p>
+                てるてるねおん
+            </p>
+
+            <p>
+                思いついたものを、動く形へ。
+            </p>
+
+        </section>
+
+        <!-- 自己紹介 -->
+
+        <section id="about" class="card hidden">
+
+            <h2>自己紹介</h2>
+
+            <p>
+
+                ゲームやツールの開発を中心に、アイデアをもとに実装しています。
+
+            </p>
+
+            <p>
+
+
+
+                構想段階から試作を繰り返し、仕組みとして成立させることを重視しながら、
+                機能と使いやすさのバランスを意識して制作しています。
+
+
+
+            </p>
+
+            <p>
+
+                興味を持ったものを実際に動く形にすることを楽しみながら、
+                開発を行っています。
+
+            </p>
+
+        </section>
+
+        <section id="achievements" class="card hidden">
+            <h2>実績</h2>
+            <ul>
+                <li>令和６年度 NEXT 人材育成事業アプリ開発コンテスト（VRコース）　最優秀賞</li>
+                <li>令和７年度 NEXT 人材育成事業アプリ開発コンテスト（VRコース）　優良賞</li>
+                <li>SECCON Beginners CTF2026　出場</li>
+            </ul>
+        </section>
+        <section id="qualification" class="card hidden">
+
+            <h2>資格</h2>
+            <ul>
+                <li>基本情報技術者</li>
+                <li>第二種電気工事士</li>
+                <li>工事担任者デジタル2級</li>
+                <li>情報技術検定1級</li>
+                <li>計算技術検定2級</li>
+            </ul>
+        </section>
+
+        <!-- 作品 -->
+
+        <section id="works" class="card hidden">
+
+            <h2>作品紹介</h2>
+
+            <!-- ========================= -->
+            <!-- Modeling / CG -->
+            <!-- ========================= -->
+
+            <div class="category">
+
+                <h3 class="category-title toggle">Modeling/ CG</h3>
+                <div class="works-grid content">
+
+                    <article class="work">
+                        <video autoplay muted loop playsinline>
+                            <source src="img/M_007.mp4" type="video/mp4">
+                        </video>
+                        <div class="work-content">
+                            <h4>プロジェクションマッピング</h4>
+                            <p class="work-meta">2025 / Blender</p>
+                            <p class="work-desc">プロジェクションマッピングの映像制作</p>
+                            <a href="works/M_007.html" class="button">詳細</a>
+                        </div>
+                    </article>
+
+                    <article class="work">
+                        <img src="img/M_006.jpg" alt="">
+                        <div class="work-content">
+                            <h4>コインゲーム</h4>
+                            <p class="work-meta">2024 / Blender</p>
+                            <p class="work-desc">コインゲームの機械のモデリング</p>
+                            <a href="works/M_006.html" class="button">詳細</a>
+                        </div>
+                    </article>
+
+                    <article class="work">
+                        <img src="img/M_005.jpg" alt="">
+                        <div class="work-content">
+                            <h4>部屋</h4>
+                            <p class="work-meta">2024 / Blender</p>
+                            <p class="work-desc">自室の再現</p>
+                            <a href="works/M_005.html" class="button">詳細</a>
+                        </div>
+                    </article>
+
+                    <article class="work">
+                        <video autoplay muted loop playsinline>
+                            <source src="img/M_004_2.mp4" type="video/mp4">
+                        </video>
+                        <div class="work-content">
+                            <h4>人魂と木</h4>
+                            <p class="work-meta">2024 / Blender</p>
+                            <p class="work-desc">カメラ移動に挑戦</p>
+                            <a href="works/M_004.html" class="button">詳細</a>
+                        </div>
+                    </article>
+
+                    <article class="work">
+                        <video autoplay muted loop playsinline>
+                            <source src="img/M_003_2.mp4" type="video/mp4">
+                        </video>
+                        <div class="work-content">
+                            <h4>キラキラ人魂</h4>
+                            <p class="work-meta">2023 / Blender</p>
+                            <p class="work-desc">簡易アニメーションに挑戦</p>
+                            <a href="works/M_003.html" class="button">詳細</a>
+                        </div>
+                    </article>
+
+                    <article class="work">
+                        <img src="img/M_002.jpg" alt="">
+                        <div class="work-content">
+                            <h4>てるてるねおんアイコン</h4>
+                            <p class="work-meta">2023 / Blender</p>
+                            <p class="work-desc">発光表現に挑戦</p>
+                            <a href="works/M_002.html" class="button">詳細</a>
+                        </div>
+                    </article>
+
+                    <article class="work">
+                        <img src="img/M_001.jpg" alt="">
+                        <div class="work-content">
+                            <h4>机の上</h4>
+                            <p class="work-meta">2023 / Blender</p>
+                            <p class="work-desc">初めてオリジナルでBlenderでモデリングをした作品</p>
+                            <a href="works/M_001.html" class="button">詳細</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 技術 -->
+
+        <section id="skills" class="card hidden">
+
+            <h2>習得技術</h2>
+
+            <section class="skills-card">
+                <h2>プログラミング</h2>
+
+                <div class="skill-item">
+                    <span class="skill-name">Python</span>
+                    <span class="skill-stars">★★★★★</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">Java</span>
+                    <span class="skill-stars">★★★★★</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">JavaScript</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">HTML</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">CSS</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">SQL</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">C#</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <h2>Web開発</h2>
+
+                <div class="skill-item">
+                    <span class="skill-name">HTML/CSS</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">JavaScript</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">レスポンシブデザイン</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">UI・UX設計</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">GitHub Pages</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <h2>アプリケーション開発</h2>
+
+                <div class="skill-item">
+                    <span class="skill-name">GUI設計</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">イベント処理</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">CSVデータ管理</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">デスクトップアプリ開発</span>
+                    <span class="skill-stars">★★★★★</span>
+                </div>
+
+                <h2>ゲーム開発</h2>
+
+                <div class="skill-item">
+                    <span class="skill-name">Unity</span>
+                    <span class="skill-stars">★★★★★</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">2Dゲーム制作</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">3Dゲーム制作</span>
+                    <span class="skill-stars">★★★★★</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">C#スクリプト</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">JavaScriptゲーム制作</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">ゲームシステム設計</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">セーブデータ管理</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">UI実装</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <h2>データベース</h2>
+
+                <div class="skill-item">
+                    <span class="skill-name">PostgreSQL</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">正規化</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">CRUD操作</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <h2>ネットワーク・セキュリティ</h2>
+
+                <div class="skill-item">
+                    <span class="skill-name">TCP/IP・HTTP/HTTPS</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">DNS・DHCP</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">NAT・IPv6・ルーティング</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">Linux（基礎）</span>
+                    <span class="skill-stars">★★★★★</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">CTF</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <h2>開発ツール・その他</h2>
+
+                <div class="skill-item">
+                    <span class="skill-name">Visual Studio Code</span>
+                    <span class="skill-stars">★★★★★</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">Eclipse</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">Unity</span>
+                    <span class="skill-stars">★★★★★</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">GitHub Pages</span>
+                    <span class="skill-stars">★★★☆☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">CLIP STUDIO PAINT</span>
+                    <span class="skill-stars">★★★★☆</span>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">AviUtil</span>
+                    <span class="skill-stars">★★★★★</span>
+                </div>
+            </section>
+
+        </section>
+
+        <!-- 連絡先 -->
+
+        <section id="contact" class="card hidden">
+
+            <h2>連絡先</h2>
+
+            <div class="contact-list">
+
+                <button class="contact copy-btn" onclick="copyEmail()">
+                    Email
+                </button>
+
+                <a href="https://x.com/Teruteru_Neon" class="contact x" target="_blank">
+                    X (Twitter)
+                </a>
+
+                <a href="https://github.com/TeruteruNeon" class="contact github" target="_blank">
+                    GitHub
+                </a>
+
+                <a href="https://note.com/teruteru_neon" class="contact note" target="_blank">
+                    note
+                </a>
+
+            </div>
+            <p class="contact-note">
+                ※お問い合わせは公開用メールまたはX DMまで<br>
+                ※就職・インターン関連は別途指定先をご利用ください
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- フッター -->
+
+    <footer>
+
+        <p>
+
+            ©TeruteruNeon
+
+        </p>
+
+    </footer>
+
+    <!-- ページトップボタン -->
+    <button id="pageTop" aria-label="ページトップへ">
+        ⌃
+    </button>
+
+    <div class="overlay" id="overlay"></div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
